@@ -1,0 +1,9 @@
+#include<stdio.h>
+ void main(){
+     int p,r,t,si;
+     printf("enter principle\n,rate of interest\n & time to find simple intertes\n");
+     scanf("%d%d%d",&p,&r,&t);
+     si=(p*r*t)/100;
+     printf("simple interest=%d",si);
+     
+ }
